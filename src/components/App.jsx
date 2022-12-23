@@ -12,7 +12,7 @@ export function App() {
   
   const addContact = (name, number) => {
     const contact = {
-      id: nanoid(),
+      id: nanoid(5),
       name,
       number,
     };
